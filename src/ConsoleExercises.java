@@ -18,6 +18,7 @@ public class ConsoleExercises {
 //                pi);
 //        System.out.format("The value of p is: %d%n", p);
         Scanner scan = new Scanner(System.in);
+        scan.useDelimiter("\n");
 //        System.out.println("Enter an integer. \n");
 //        System.out.println(scan.nextInt());
 //        You will receive a misMatch Exception.
@@ -37,11 +38,14 @@ public class ConsoleExercises {
 //        String s = scan.nextLine();
 //        System.out.println(s);
         System.out.println("What is the length of the room in feet?");
-        int len = scan.nextInt();
+        double len = scan.nextDouble();
+        System.out.println("What is the width of the room in feet?");
+        double wid = scan.nextDouble();
         System.out.println("What is the height of the room in feet?");
-        int hei = scan.nextInt();
-        System.out.println("Here is the Area of the room: " + (len * hei) + "ft");
-        System.out.println("Here is the perimeter of the room: " + (2*(len + hei)) + "ft");
+        double hei = scan.nextDouble();
+        System.out.println("Here is the Area of the room: " + (len * wid) + "ft");
+        System.out.println("Here is the perimeter of the room: " + (2*(len + wid)) + "ft");
+        System.out.println("Here is the volume of the room: " + (len * wid * hei) + "ft");
 
 
 

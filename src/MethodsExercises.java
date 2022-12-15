@@ -22,15 +22,26 @@ public class MethodsExercises {
         }
     }
     public static int division(int x, int y) {
+        int i = 0;
+        if (x < y){
+            return i;
+        }
+        i+=1;
+        return division(x-y,y)+ i;
+    }
+    public static int remainder(int x, int y) {
         if (x < y){
             return x;
         }
-        return division(x-y,y)+1;
+        return division(x-y,y);
     }
-    public static void main(String[] args) {
-        System.out.println( addition(20,3));
-        System.out.println( subtraction(22,2));
-        System.out.println( multiplication(30,2));
-        System.out.println( division(27,3));
-    }
+        public static void main(String[] args) {
+        System.out.println( "sum: "+addition(20,3));
+        System.out.println( "subtraction: "+subtraction(22,2));
+        System.out.println( "Multiplication" + multiplication(30,2));
+        System.out.println( "division: "+ division(9,4));
+            System.out.println( "division Remainder: "+ remainder(9,4));
+
+
+        }
 }

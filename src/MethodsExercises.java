@@ -62,7 +62,7 @@ public class MethodsExercises {
 //        System.out.println( "division Remainder: "+ remainder(9,4));
 
 //            getInteger(1,10);
-            System.out.println(factorial(4));;
+//            System.out.println(factorial(4));;
 
 
 

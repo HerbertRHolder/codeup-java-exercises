@@ -1,6 +1,24 @@
-public class TernaryTester {
+public class ArithmeticSample {
+    private int num1 = 0;
+    private int num2 = 0;
+
+
+    public int add(int a,int b){
+        return a+b;
+    }
+    public double add(double a, double b){
+        return a+b;
+    }
+
     public static void main(String[] args) {
-             int x = 5;
-        System.out.println(x > 2 ? x < 4 ? 10 : 8 : 7);
+        ArithmeticSample calc = new ArithmeticSample();
+        double a = 1.2;
+        double b = 2.2;
+        int x = 3;
+        int y = 4;
+
+        calc.add(a,b);
+        calc.add(x, y);
+
 }
 }

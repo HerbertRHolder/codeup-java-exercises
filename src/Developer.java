@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class Developer {
+class Developer extends Employee {
+    public String work() {
+        return "writing code";
+    }
 }

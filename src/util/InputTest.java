@@ -13,19 +13,25 @@ public class InputTest {
         System.out.println("You entered: " + yesNo);
 
         System.out.println("Enter a number between 1 and 10: ");
-        int num = input.getInt(1, 10);
+        String num = input.getString();
+        Integer.valueOf(num);
+
         System.out.println("You entered: " + num);
 
         System.out.println("Enter a number: ");
-        int num2 = input.getInt();
+        String num2 = input.getString();
+        Integer.valueOf(num2);
+
         System.out.println("You entered: " + num2);
 
         System.out.println("Enter a decimal number between 1 and 10: ");
-        double decimal = input.getDouble(1, 10);
+        String decimal = input.getString();
+        Double.valueOf(decimal);
+
         System.out.println("You entered: " + decimal);
 
         System.out.println("Enter a decimal number: ");
-        double decimal2 = input.getDouble();
+        String decimal2 = input.getString();
         System.out.println("You entered: " + decimal2);
     }
 }

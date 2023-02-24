@@ -1,2 +1,6 @@
-package shapes;public class Shape {
+package shapes;
+abstract class Shape {
+    abstract public void setLength(double l);
+
+    abstract public void setWidth(double w);
 }

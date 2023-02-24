@@ -3,7 +3,7 @@ package grades;
 import java.util.Scanner;
 import java.util.HashMap;
 
-public class GradesApplication {
+public class GradeApplication {
     public static void main(String[] arguments) {
         var studentA = new Student("Brittney");
         studentA.addGrade(98);

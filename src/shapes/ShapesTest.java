@@ -14,7 +14,7 @@ public class ShapesTest {
         // shape2 without using perimeter is actual just an object and
         // does not provide any functionality until we use a method
         // of the Rectangle class.
-        shape2.getWidth();
+        //shape2.getWidth();
         // This give you an error because it is part of an abstract class
         // Quadrilateral which cannot be used on a main method as it is marked
         // as an incomplete class
